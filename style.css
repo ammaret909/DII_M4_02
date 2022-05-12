@@ -20,3 +20,16 @@ ol{
     color: #1D3557;
     background-color: #F1FAEE;
 }
+
+ul{
+    list-style-type: none;
+    color: #a7dadc;
+}
+ul li::before{
+    content: "\2022";
+    color: #E63946;
+    font-weight: bold;
+    display: inline-block;
+    width: 1em;
+    margin-left: -2em;
+}
