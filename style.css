@@ -1,15 +1,3 @@
-div {
-	color: black;
-}
-div p {
-	color: white;
-}
-.div1 p {
-	color: orange;
-}
-div.div1 p {
-	color: red;
-}
 #div1 p {
 	color: green;
 }
@@ -19,29 +7,11 @@ div.div1 p {
 div #x1 {
 	color: red;
 }
-div p:first-child {
-	color: brown;
-}
 .x2 {
 	color: teal;
 }
-div span {
-	color: yellow;
-}
-div > span {
-	color: lightblue;
-}
-p span {
-	color: gold;
-}
 p #x2 {
 	color: purple;
-}
-p span.x2 {
-	color: beige;
-}
-p > .x2 {
-	color: maroon;
 }
 div > span {
 	color: blue;
